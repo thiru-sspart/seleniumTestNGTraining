@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Cross Borwser testing" verbose="1" >
+
+    <listeners>
+        <listener class-name="org.rnd.utils.ListenerExSel"></listener>
+    </listeners>
+
+    <test name="Validate" >
+        <classes>
+            <class name="org.rnd.tests.GoogleHomeTests"></class>
+        </classes>
+    </test>
+
+</suite>
